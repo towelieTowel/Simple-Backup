@@ -1,0 +1,48 @@
+#home prefix for relative paths
+home_prefix=$HOME
+
+#format for date
+format='%m_%d_%Y'
+
+#Path to the directory where backups will be stored
+backup_dir="$home_prefix/.backups"
+
+
+#paths with home_prefix
+home_paths=(
+        "$home_prefix/Documents" \
+        "$home_prefix/.backuprc" \
+        "$home_prefix/.bashrc" \
+        "$home_prefix/.vimrc" 
+        )
+
+#absolute paths to backup
+abs_paths=("/usr/share/backgrounds")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
