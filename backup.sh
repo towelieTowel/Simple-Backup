@@ -40,9 +40,6 @@ then
         #source the config file
         echo "Loading configs"
         source $config
-        
-        
-        paths=(${home_paths[@]} ${abs_paths[@]})
         current_date=$(date +$format)
         
         #If backup directory exists
