@@ -25,6 +25,6 @@ Simple-Backup uses the format string set in the ```format``` variable of the con
 
 ### Run
 
-```chmod +x backup.sh 
-./backup.sh```
+```chmod +x backup.sh``` 
+```./backup.sh```
 
