@@ -15,7 +15,7 @@ download the zip file and unzip
 Simple-Backup expects the configuration file to be in $HOME. If the file is doesn't exist or cannot be accessed the Simple-Backup will not be able to run, as it sources this file. $HOME is the default path to search for .backuprc. This can be easily modified in the backup.sh script via ```config="${HOME}/.backuprc"```, located at the top of the script. 
 
 ##### Adding paths
-To add files to be backed up, simply add either the absolute path to the ```abs_paths``` list or add the relative path to the ```home_paths``` list. The prefix for the ```home_paths``` can be modified by setting the ```home_prefix``` variable to the desired path. 
+To add files to be backed up, simply add either the absolute path or a relative path to the ```paths``` list. The prefix for the ```paths``` can be modified by setting the ```prefix``` variable to the desired path. The default is set at ```prefix=$HOME```.  
 
 ##### Setting backup location
 Simple-Backup will store the backup zip archive file to the location set in the ```backup_dir``` variable of the configuration file. The default backup location is ```backup_dir="$home_prefix/.backups"```.
