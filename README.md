@@ -28,3 +28,6 @@ Simple-Backup uses the format string set in the ```format``` variable of the con
 ```chmod +x backup.sh``` 
 ```./backup.sh```
 
+### Issues
+Simple-Backup will not run if either 1. The configuration file is empty or 2. The configuration file is not in the expected path. To triage these issues, first verify that the .backuprc file is located in the path set in the ```config``` variable at the top of the backup.sh file: ```config="${HOME}/.backuprc"```. If the file does exist, make sure that it is not empty. If you have done both and are still having issues, please open an issue ticket in this repository. 
+
