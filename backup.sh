@@ -1,10 +1,4 @@
 #! /bin/bash
-#
-#TO-DO:
-#   []create switch for daily, weekly and monthly backup
-#   []create list of folders/files to backup for daily, weekly and monthly backup
-#   []create logging function
-
 
 #path to configuration file
 config="${HOME}/.backuprc"
