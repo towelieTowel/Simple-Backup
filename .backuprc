@@ -1,5 +1,8 @@
-#home prefix for relative paths
+#prefix for relative paths
 prefix=$HOME
+
+#home prefix
+home_prefix=$HOME
 
 #format for date
 format='%m_%d_%Y'
